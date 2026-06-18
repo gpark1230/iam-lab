@@ -1,4 +1,4 @@
-# Enterprise IAM & Cloud Security Lab
+# Enterprise Hybrid Identity & IAM Lab
 
 ## Current Implementation Status
 
@@ -37,11 +37,14 @@ Planned:
 - AWS IAM
 
 - Okta SSO
+
 ## Overview
 
-This project simulates a modern enterprise identity and cloud security environment built around Microsoft Entra ID, Active Directory, Azure, AWS IAM, Okta, Microsoft Sentinel, and Zero Trust security principles.
+This project simulates the design, implementation, security, monitoring, and operation of a modern enterprise hybrid identity environment.
 
-The goal is to design, implement, secure, monitor, and document an enterprise identity environment the way a real security engineering team would.
+The lab combines an on-premises Active Directory infrastructure with Microsoft Entra ID and Azure services to mirror how many organizations manage identity today.
+
+The project focuses on enterprise architecture, Active Directory, Microsoft Entra ID, Azure, Identity and Access Management (IAM), Conditional Access, Privileged Identity Management (PIM), RBAC, Microsoft Sentinel, and PowerShell automation.
 
 ## Business Scenario
 
@@ -54,4 +57,27 @@ A fictional company is modernizing its identity and access management environmen
 - Integrate on-premises identity with Microsoft Entra ID
 - Implement role-based access control
 - Configure MFA and Conditional Access
-- Automate user provi
+- Automate user provisioning and offboarding
+- Secure privileged access with PIM
+- Connect identity logs to Microsoft Sentinel
+- Create detection and incident response documentation
+- Map security controls to Zero Trust and MITRE ATT&CK
+
+## Technologies
+
+- Microsoft Entra ID
+- Active Directory Domain Services
+- Microsoft Entra Connect
+- Microsoft Azure
+- AWS IAM
+- Okta
+- Microsoft Sentinel
+- Microsoft Defender
+- PowerShell
+- Python
+- Windows Server
+- Windows 11
+
+## Project Status
+
+In Progress

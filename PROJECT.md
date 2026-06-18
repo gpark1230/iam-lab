@@ -67,7 +67,7 @@ COMPLETE!!!
 
 ### Tasks
 
-- [ ] Deploy Windows Server 2022 VM
+- [ ] Deploy On-Premises Windows Server 2022 (DC01)
 - [ ] Configure static private IP
 - [ ] Configure storage
 - [ ] Review NSG rules
