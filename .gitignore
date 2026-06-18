@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Azure CLI
+.azure/
+
+# PowerShell history
+ConsoleHost_history.txt
